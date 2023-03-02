@@ -12,7 +12,7 @@ Some things to make sure the program works:-
   
 3.As per your monitor resolution you might have to change the values given in line 12
   image.crop((15,260,1250,400))
-  for the best possible results. In order to have a good idea of what are you cropping you may uncomment the img.show() command and it will display you the cropped       image.
+  for the best possible results. In order to have a good idea of what are you cropping you may uncomment the image.show() command and it will display you the cropped       image.
   So you may have to play with those values as per your requirements.
   
  4.Here are some results with the above program:
