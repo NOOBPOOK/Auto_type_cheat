@@ -9,6 +9,7 @@ time.sleep(5)
 print("Application Started")
 image = ImageGrab.grab()
 image = image.crop((15,260,1250,400))
+#image.show()
 text = tess.image_to_string(image)
 text = text.replace("\n"," ")
 text = list(text)
@@ -20,6 +21,7 @@ for i in text:
 while True:
     image = ImageGrab.grab()
     image = image.crop((15,315,1250,400))
+    #image.show()
     text = tess.image_to_string(image)
     for i in text:
         if i!="\n":
