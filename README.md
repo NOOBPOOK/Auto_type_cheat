@@ -2,6 +2,7 @@
 This program let's you allow to cheat on monkey type typing wesbite with over speed of 106wpm and 97-99% accuracy!
 
 Some things to make sure the program works:-
+
 1.Import all the requirements at first
 
 2.For the address in the 5th line of code make sure you install tesseract-ocr from 
